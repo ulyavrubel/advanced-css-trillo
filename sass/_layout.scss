@@ -10,6 +10,10 @@
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
 }
 
 .content {
@@ -19,10 +23,14 @@
 .sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%; //no grow, no shrink, keep 18%
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view {
   background-color: #fff;
   background-color: orangered;
   flex: 1; //element should grow as much as it can to fill all the rest space
+  height: 80rem;
 }
