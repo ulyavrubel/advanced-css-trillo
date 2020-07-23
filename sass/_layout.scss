@@ -9,7 +9,7 @@
 .header {
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-1);
+  border-bottom: var(--line);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,7 +30,27 @@
 
 .hotel-view {
   background-color: #fff;
-  background-color: orangered;
+  color: var(--color-grey-dark-1);
   flex: 1; //element should grow as much as it can to fill all the rest space
-  height: 80rem;
+}
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
+}
+
+.description {
+  box-shadow: var(--shadow-light);
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+  padding: 4.5rem;
+  font-size: 1.4rem;
+}
+
+.user-reviews {
+  background-color: orange;
+  flex: 1;
+  box-shadow: var(--shadow-light);
 }
